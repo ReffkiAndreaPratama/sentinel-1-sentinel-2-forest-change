@@ -1,0 +1,56 @@
+# === Virtual environments ===
+.venv/
+.venv-*/
+venv/
+env/
+
+# === Python cache ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# === Node (jika ada) ===
+node_modules/
+
+# === Dataset besar (jangan diunggah) ===
+*.zip
+*.tar
+*.tar.gz
+*.npy
+*.npz
+data/raw/
+data/dataset/
+data/demo/
+
+# === Model besar (gunakan Git LFS bila perlu) ===
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pkl
+*.joblib
+
+# === Outputs & berkas sementara ===
+outputs/_upload.tif
+outputs/*.npy
+outputs/demo_*
+outputs/results/
+models/*.joblib
+models/*.pt
+models/*.pkl
+
+# === Rahasia & data sensitif ===
+.env
+*.key
+token.txt
+server_pid.txt
+
+# === OS / editor ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

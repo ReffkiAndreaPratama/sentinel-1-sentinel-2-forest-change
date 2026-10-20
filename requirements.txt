@@ -1,0 +1,10 @@
+# Dependensi Sesi 6 - ForestWatch AI
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.5
+rasterio>=1.3
+geopandas>=0.14
+streamlit>=1.37
+plotly>=5.22
+joblib>=1.4
+pytest>=8.0
